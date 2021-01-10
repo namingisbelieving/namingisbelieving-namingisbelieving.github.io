@@ -1,0 +1,192 @@
+// typographhy
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-size:14px;
+}
+.hr {
+	height:1px;
+	width:100%;
+	position: absolute;
+	border-top:1px solid green;
+
+}
+.vr {
+	width:1px;
+	height:1000%;
+	position: absolute;
+	border-left:1px solid green;
+	left:449px;
+	z-index:5000;
+}
+.navbar {
+	    padding: .5rem 0;
+}
+
+.navbar-brand img {
+	width:160px;
+	height:auto;
+}
+.navbar-brand span {
+	display: block;
+	font-size: 15px;
+	margin: 4px 0 0 3px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #333;
+	font-size:18px;
+	padding: 10px;
+}
+
+/*buttons*/
+
+.btn-primary, .btn-primary:hover, .btn-primary:active,  .btn-primary:focus  {
+	background-color: transparent;
+	color: #FF4747;
+	border-color: #FF4747;
+	box-shadow: none;
+}
+.btn-primary:hover {
+	background-color: #f2f2f2;
+}
+footer {
+	margin-top:6rem;
+	padding-top:2rem;
+	border-top:1px solid #ff4747;
+}
+footer a {
+	margin-right:20px;
+	color: #ff4747;
+}
+a, a:hover {
+	color: #ff4747;
+}
+footer a i {
+	margin-right:10px;
+}
+footer .text-right a {
+		margin-right:0;
+		margin-left:20px;
+	color: #ff4747;
+}
+@media (min-width: 768px) {
+	.offset-left {
+		margin-left: 4.166666%;
+	}
+	.offset-right {
+		margin-right: 4.166666%;
+	}
+	#key-areas .offset-left {
+		margin-left: 2.8888%;
+	}
+
+	.navbar {
+		padding: .5rem 0;
+	}
+	.navbar-light .navbar-nav .nav-item:last-child .nav-link {
+		padding: 10px 0 10px 0;
+	}
+	.kae {
+		list-style-type: none;
+		margin-top:2rem;
+	}
+	.kae li {
+		padding-bottom:1rem;
+		margin-bottom:1rem;
+	}
+	.kae li:after {
+		content: " ";
+		  display: block;
+		  position: relative;
+		  height: 1px;
+		  background: #333;
+		  width: 100%;
+		  top: 1rem;
+		  left: -1rem;
+	}
+	.kae li:nth-child(even):after {
+		  left: 1rem;
+	}
+	#key-areas {
+			padding:0 15px;
+	}
+	.kae li{
+		cursor: pointer;
+	}
+	.timeline {
+		width:100%;
+		height: 5.9rem;
+		border-bottom:2rem solid #FF4747;
+		margin-top:2rem;
+		color:#fff;
+		line-height: 2rem;
+	}
+	.timeline > div {
+		float:left;
+		padding-left:0;
+		position: relative;
+	}
+	.timeline span {
+		cursor: pointer;
+		font-weight: 300;
+		width: 135px;
+    	line-height: 15px;
+    	position: relative;
+    	padding: 0 10px 3rem 10px;
+    	margin: 0;
+		display: block;
+		float:left;
+
+	}
+	.timeline .above span {
+    	padding:0 5px 3.3rem 5px;
+
+
+	}
+	.timeline span:hover {
+		color:#FF4747;
+	}
+	.timeline .above, .timeline .below {
+		color:#333;
+		position: relative;
+		overflow: hidden;
+		padding-top:5px;
+	}
+	.above i.line, .below i.line {
+		 width: 1px;
+		border-left: 1px solid #ff4747;
+		margin-left: 50%;
+		display: block;
+		height:15px;
+	}
+	.above i.line {
+		    position: absolute;
+		    top: 3rem;
+		    left: 0;
+	}
+	.timeline p.title {
+		position: absolute;
+    	top: 3.9rem;
+		color:#fff;
+		width:100%;
+		padding-left:.5rem;
+		line-height: 2rem;
+	}
+	.timeline p.title img {
+		height: 2.2rem;
+	    width: auto;
+	    position: absolute;
+	    top: -2px;
+	    right:0;
+	    margin-left: 0;
+	    margin-right:1rem;
+	}
+	
+}//min-width: 768px
+
+// end typography
+h1 {
+	margin:200px !important;
+	color:red;
+	font-size:2rem;
+}
